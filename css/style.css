@@ -47,6 +47,10 @@
   margin-top: 10px;
 }
 
+.woman-picture:hover{
+  cursor: pointer;
+}
+
 #woman-dropdown-menu{
   width: 205px;
   height: 200px;
@@ -56,6 +60,16 @@
   border-radius: 5px;
   display: inline;
   visibility: hidden;
+  justify-content: center;
+}
+
+.navbar-spacing-dl{
+  margin-left: -50px;
+  margin-top: -5px;
+}
+
+.navbar-spacing{
+  gap: 15px;
 }
 
 .whatsapp-logo{
@@ -125,6 +139,10 @@
 
 .navbar-currency{
   width: 20px;
+}
+
+.navbar-currency-dl{
+  margin-left: -30px;
 }
 
 .naira-sign{
@@ -368,6 +386,9 @@
     width: 100px;
     height: 50px;
   }
+  .colonel:hover{
+    transition: 0.3s;
+  }
   .f form input{
     padding: 14px 130px 14px;
     margin-top: 40px;
@@ -536,7 +557,6 @@
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
-    position: absolute;
     margin-top: 30px;
   }
   .iaaa{
@@ -545,7 +565,6 @@
     font-size: x-large;
     margin-left: 80px;
     margin-top: 0px;
-    position: absolute;
     margin-top: 80px;
   }
   .ie{
@@ -913,14 +932,6 @@
     width: 330px;
     height: 180px;
   }
-  .smi:hover{
-    background-color: blue;
-    transition: 0.2s;
-  }
-  .smir:hover{
-    transition: 0.2s;
-    background-color: blue;
-  }
   .hot{
     margin-left: 0px;
     margin-top: -10px;
@@ -1126,6 +1137,19 @@
   background-color: rgb(55, 161, 210);
 }
 .booking-hotels{
-  border: 3px solid black;
   height: 350px;
+  display: flex;
+  justify-content:space-evenly;
+  background-color: white;
+}
+.hover-effect{
+  width: 330px;
+  height: 180px;
+  position: absolute;
+  opacity: 0%;
+}
+.hover-effect:hover{
+  opacity: 30%;
+  background-color: black;
+  transition: 0.5s;
 }
