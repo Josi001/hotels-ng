@@ -348,22 +348,18 @@
   .summary {
     border: 1px solid black;
   }
-  img{
-    width: 1228.5px;
-    height: 286px;
-    background-position: center;
-    background-size: cover;
-    background-position: center;
-  }
-  .f {
+  .f{
     box-shadow: -1px 1px 15px black;
     background-color: white;
-    width: 1050px;
+    width: 1081px;
     height: 121px;
     border: blue;
-    margin-top: 200px;
+    margin-top: -60px;
     margin-left: 90px;
     position: absolute;
+  }
+  .destination-text{
+    margin-top: -200px
   }
   .colonel {
     background-color: skyblue;
@@ -381,20 +377,25 @@
     margin-left: 50px;
   }
   .p {
-    color: black;
+    color: darkslategray;
     margin-top: 350px;
-    margin-left: 500px;
+    text-align: center;
     background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
   .d {
-    margin-left: 460px;
+    text-align: center;
+    color: darkslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .z {
     background-color: deepskyblue;
     width: 40px;
     height: 2.7px;
-    margin-left: 665px;
+    margin-left: 600px;
     margin-bottom: -40px;
+    position: relative;
   }
   button:hover {
     background-color: deepskyblue;
