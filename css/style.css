@@ -4,14 +4,101 @@
 } */
 
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 65px;
+  background-color: deepskyblue;
+  margin-top: 0px;
+}
 
-h1{
+.nav-title-text{
+  padding-left: 10px;
+  border: 3px solid black;
+  height: 40px;  
+}
+
+
+.nav-title-text h1{
     color: white;
     font-family: Arial;
-background-color: deepskyblue;
-margin-top: 0px;
-margin-left: 0px;  
-   }
+}
+
+.nav-navigations{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  border: 3px solid black;
+}
+ 
+.woman-pic{
+  width: 38px;
+  height: 38px;
+  border-radius: 19px;
+  margin-left: -10px;
+}
+
+.woman-picture{
+  background-color: rgb(46, 62, 126);
+  border-radius: 30px;
+  width: 205px;
+  justify-self: center;
+  height: 38px;
+  margin-left: -50px;
+  margin-top: 10px;
+}
+
+.navbar-whatsapp-icon {
+  margin-top: 20px;
+  margin-left: -550px;
+}
+
+.navbar-text{
+  margin-top: -40px;
+  color : rgb(76, 136, 248);
+  font-size: 10px;
+  word-spacing: -1px;
+  text-align: center;
+  margin-left: 15px;
+  font-family: sans-serif;
+}
+
+.navbar-number{
+  color: white;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 35px;
+  margin-top: -4px;
+}
+
+#navbar-icon{
+  margin-top: -25px;
+  margin-left: 180px;
+  color: white;
+}
+
+.navbar-line{
+  width: 0.5px;
+  height: 100px;
+  background-color: white;
+  margin-left: -55px;
+}
+
+.naira-sign{
+  margin-left: -12px;
+  margin-top: -25px;
+  color: white;
+}
+
+.nig-flag{
+  width: 40px;
+  height: 25px;
+  margin-left: -60px;
+  margin-top: 20px;
+}
+
+
    .p1 {
     color : deepskyblue;
     font-size: 12px;
@@ -26,12 +113,6 @@ margin-left: 0px;
   .p2 {
     color: white;
     text-align: center;
-  }
-  div{
-    background-color: deepskyblue;
-    border: 2px deepskyblue;
-    width: 230px;
-    height: 65px;
   }
   .p3 {
     margin-top: 0px;
@@ -51,28 +132,12 @@ margin-left: 0px;
     margin-left: 60px;
     color: white;
   }
-  .h {
-    border: 1px solid white;
-    width: 735px;
-    height: 65px;
-    background-color: deepskyblue;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
+
   .j {
     height: 65px;
     width: 238px;
   }
-  span {
-    color: white;
-    font-size: medium;
-  }
-  nav { 
-    display: inline-flex;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-  .pop{
+    .pop{
     width: 1263.5px;
     background-position: center;
     background-size: cover;
@@ -155,7 +220,6 @@ margin-left: 0px;
     height: 2.7px;
     margin-left: 665px;
     margin-bottom: -40px;
-    margin-top: 20px;
   }
   button:hover {
     background-color: deepskyblue;
@@ -265,9 +329,6 @@ margin-left: 0px;
     text-align: center;
     font-style:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .pp{
-    background-color: white;
-  }
   .nn{
     margin-left: 450px;
     margin-top: 150px;
@@ -289,45 +350,18 @@ margin-left: 0px;
     background-image: url("/images/lagos_city1.jpg");
     width: 300px;
     height: 230px;
-    margin-top: 100px;
+    margin-top: 150px;
     background-size: 330px 230px;
     background-repeat: no-repeat;
     background-color: white;
     border-radius: 5px 5px 5px 5px;
   }
-    .ib{
-    background-image: url("/images/abuja_city1.jpg");
-    width: 300px;
-    height: 230px;
-    margin-top: 100px;
-    background-size: 300px 230px;
-    background-repeat: no-repeat;
-    background-color: white;
-    margin-left: 20px;
-    border-radius: 5px 5px 5px 5px;
-  }
-  .ic{
-    background-image: url("/images/crossriver_city1.jpg");
-    width: 300px;
-    height: 230px;
-    margin-top: 100px;
-    background-size: 300px 230px;
-    background-repeat: no-repeat;
-    background-color: white;
-    margin-left: 20px;
-    border-top: 5px;
-    border-bottom: 5px;
-    border-radius: 5px 5px 5px 5px;
-  }
-  .in{
-    margin-left: 190px; 
-    border-radius: 10px;
-  }
   .iaa{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
-    margin-left: 100px;
+    position: absolute;
+    margin-top: 30px;
   }
   .iaaa{
     color: white;
@@ -335,132 +369,14 @@ margin-left: 0px;
     font-size: x-large;
     margin-left: 80px;
     margin-top: 0px;
-  }
-  .ibb{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 100px;
-  }
-  .ibbb{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 80px;
-  }
-  .icc{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 120px;
-  }
-  .iccc{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 80px;
+    position: absolute;
+    margin-top: 80px;
   }
   .ie{
     margin-left: 190px;
     margin-top: 130px;
   }
   .huy{
-    position: absolute;
-  }
-  .if{
-    background-image: url("/images/port-harcourt_city1.jpg");
-    width: 300px;
-    height: 230px;
-    margin-top: -100px;
-    background-size: 300px 230px;
-    background-repeat: no-repeat;
-    background-color: white;
-    border-radius: 5px 5px 5px 5px;
-  }
-  .ig{
-    background-image: url("/images/owerri_city1.jpg");
-    width: 300px;
-    height: 230px;
-    margin-top: -100px;
-    background-size: 300px 230px;
-    background-repeat: no-repeat;
-    background-color: white;
-    margin-left: 20px;
-    border-radius: 5px 5px 5px 5px;
-  }
-  .ih{
-    background-image: url("/images/uyo_city1.jpg");
-    width: 300px;
-    height: 230px;
-    margin-top: -100px;
-    background-size: 300px 230px;
-    background-repeat: no-repeat;
-    background-color: white;
-    margin-left: 20px;
-    border-radius: 5px 5px 5px;
-    border-radius: 5px 5px 5px 5px;
-    
-  }
-  .iff{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 100px;
-  }
-  .ifff{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 50px;
-  }
-  .igg{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 120px;
-  }
-  .iggg{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 80px;
-  }
-  .ihh{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 120px;
-  }
-  .ihhh{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
-    margin-left: 90px;
-  }
-  .ijj{
-    width: 170px;
-    height: 45px;
-    margin-left: 60px;
-    margin-top: 10px;
-    border-radius: 10px;
-    background-color: black;
-    opacity: 10%;
-    margin-top: -55px;
-    position: absolute;
-    color: black;
-  }
-  .ijj:hover{
-    background-color: deepskyblue;
-    color: white;
-    opacity:unset;
-  }
-  .ij{
-    margin-top: -150px;
-    background-color: black;
-    opacity: 20%;
-    width: 300px;
-  }
-  .ijjj{
     position: absolute;
   }
   .ik{
@@ -511,9 +427,10 @@ margin-left: 0px;
   }
   .bb{
     margin-top: 20px;
+    margin-bottom: -30px;
   }
   .bbc{
-    margin-top: 20px;
+    margin-top: -30px;
   }
   .cbb{
     margin-top: 20px;
@@ -824,11 +741,6 @@ margin-left: 0px;
     background-color: blue;
     transition: 0.2s;
   }
-  .smir{
-    background-color: white;
-    margin-left: 50px;
-   margin-top: 60px; 
-  }
   .smir:hover{
     transition: 0.2s;
     background-color: blue;
@@ -849,70 +761,6 @@ margin-left: 0px;
     margin-left: 10px;
   }
   .hotel{
-    font-size: large;
-    margin-top: -10px;
-    margin-left: 10px;
-    color: darkslategrey;
-    font-family: sans-serifs;
-  }
-  .vil{
-    background-color: white;
-    margin-left: 150px;
-    margin-top: 60px;
-  }
-  .bil{
-    margin-left: 0px;
-    margin-top: -10px;
-    background-color: white;
-    height: 90px;
-    border: 1px solid darkslategray;
-    border-radius: 5px;
-    width: 328.5px;
-  }
-  .bill{
-    font-family: sans-serif;
-    font-size: larger;
-    color: deepskyblue;
-    word-spacing: 1px;
-    margin-left: 10px
-  }
-  .billi{
-    font-size: large;
-    margin-top: -10px;
-    margin-left: 10px;
-    color: darkslategrey;
-    font-family: sans-serifs;
-  }
-  .vill{
-    width: 330px;
-    height: 180px;
-  }
-  .co{
-    background-color: white;
-    margin-left: 150px;
-    margin-top: 60px;
-  }
-  .coc{
-    width: 330px;
-    height: 180px;
-  }
-  .cocc{
-    margin-left: 0px;
-    margin-top: -10px;
-    background-color: white;
-    height: 90px;
-    border: 1px solid darkslategray;
-    border-radius: 5px;
-    width: 328.5px;
-  }
-  .cocco{
-    font-family: sans-serif;
-    font-size: larger;
-    color: deepskyblue;
-    word-spacing: 1px;
-    margin-left: 10px
-  }
-  .coccon{
     font-size: large;
     margin-top: -10px;
     margin-left: 10px;
@@ -1034,6 +882,7 @@ margin-left: 0px;
     background-color: white;
     border-radius: 5px;
     display: block;
+    visibility: hidden;
   }
   .cash{
     margin-left: 10px;
@@ -1094,6 +943,7 @@ margin-left: 0px;
     margin-top: -63px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
+    visibility: hidden;
   }
  .sign{
   margin-left: 15px;
@@ -1122,7 +972,6 @@ margin-left: 0px;
   font-size: small;
 }
 .noff{
-  position: absolute;
   width: 330px;
   height: 180px;
   margin-left: 50px;
@@ -1135,59 +984,15 @@ margin-left: 0px;
   opacity: 30%;
   transition: 0.5s;
 }
-.ibadan{
-  position: absolute;
-  width: 330px;
-  height: 180px;
-  margin-left: 430px;
-  margin-top: 60px;
-  opacity: 0%;
-  background-color: black;
-}
-.ibadan:hover{
-  background-color: black;
-  opacity: 30%;
-  transition: 0.5s;
-}
-.luxury{
-  position: absolute;
-  width: 330px;
-  height: 180px;
-  margin-left: 810px;
-  margin-top: 60px;
-  opacity: 0%;
-  background-color: black;
-}
-.luxury:hover{
-  background-color: black;
-  opacity: 30%;
-  transition: 0.5s;
-}
-.lagos{
-  width: 300px;
-  height: 230px;
-  margin-top: 100px;
-  border-radius: 5px 5px 5px 5px;
-  opacity: 30%;
-  background-color: black;
-  position: absolute;
-}
-.lagos:hover{
-  transition: 0.4s;
-  background-color: black;
-  opacity: 30%;
-}
-.books{
-  position: absolute;
-  margin-top: 265px;
+.books{   
   width: 300px;
   border-radius: 0px 0px 5px 5px;
   background-color: black;
   opacity: 30%;
+  margin-top: -50px;
 }
 .bok{
   position: absolute;
-  margin-top: 275px;
   width: 200px;
   height: 45px;
   margin-left: 50px;
@@ -1198,10 +1003,50 @@ margin-left: 0px;
   font-weight: bold;
   font-size: medium;
   font-family: sans-serif;
+  margin-top: -50px;
 }
 .bok:hover{
-  transition: 0.5s;
+  transition: 0.3s;
 }
-header{
+#tick{
+  background-color: white;
+}
+#tick:hover{
+  visibility: visible;
+  animation: ease-in;
+}
+.blur{
   position: absolute;
+  margin-top: 460px;
+  margin-left: 650px;
+  background-color:  rgb(39, 39, 154);
+  height: 0px;
+}
+#email{
+  border: none;
+  color:  rgb(94, 94, 200);
+  background-color:  rgb(141, 141, 231);
+  width: 270px;
+  height: 40px;
+  border-radius: 5px 0px 0px 5px;
+}
+#email:hover{
+  border: 0px thin rgb(39, 39, 154);
+}
+#unlock{
+  margin-left: 273px;
+  margin-top: -42px;
+  height: 42px;
+  width: 180px;
+  background-color: deepskyblue;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+}
+#unlock{
+  background-color: rgb(55, 161, 210);
+}
+.booking-hotels{
+  border: 3px solid black;
+  height: 350px;
 }

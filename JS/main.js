@@ -6,7 +6,10 @@ function toggle(){
     }else{
         icon.style.display = "none"
     }
-    let icon = document.getElementById()
+    if (icon.style.visibility === "hidden"){
+    }else{
+        (icon.style.visibility = "visible")
+    }
 }
 function toggles(){
     let icon = document.getElementById("currency")
@@ -15,7 +18,10 @@ function toggles(){
     }else{
         icon.style.display = "none"
     }
-    
+    if (icon.style.visibility === "hidden"){
+    }else{
+        (icon.style.visibility = "visible")
+    }
 }
 function appear(){
     let icon = document.getElementById("access")
@@ -24,5 +30,9 @@ function appear(){
     }else{
         icon.style.display = "none"
     }
-    
+    if (icon.style.visibility === "hidden"){
+    }else{
+        (icon.style.visibility = "visible")
+    }
 }
+
