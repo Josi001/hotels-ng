@@ -384,7 +384,7 @@
     border: blue;
     margin-top: -60px;
     margin-left: 90px;
-    position: absolute;
+    position: sticky;
     display: flex;
     flex-wrap: wrap;
   }
@@ -558,18 +558,41 @@
   .ia{
     margin-top: 25px;
   }
-  #button-section:hover{
-    background-color: red;
-  }
-  #button-section{
-    width: 300px;
-    height:70px;
-    border-radius: 0px 0px 5px 5px;
-    position: relative;
+  .full-scale ul{
+    background-color: skyblue;
+    width: 260px;
+    margin-top: -165px;
+    height: 235px;
     position: absolute;
-    background-color: blue;
-    visibility: hidden;
+  }
+  .full-scale{
+    position: absolute;
+  }
+  .full-scale:hover ul{
     display: block;
+  }
+  .button-section{
+   height: 235px;
+   position: absolute;
+   margin-top: -170px;
+   opacity: 0%;
+  }
+  .button-section:hover{
+    opacity: 100%;
+    transition: 0.5s;
+  }
+  .top-section{
+    width: 300px;
+    height: 25px;
+    display: block;
+  }
+  .bottom-section{
+    background-color: black;
+    opacity: 80%;
+    position: relative;
+    height: 65px;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 150px;
   }
   .popup-property{
     margin-top: -200px;
@@ -585,6 +608,9 @@
     flex-wrap: wrap;
     grid-template-columns: 25% 25% 25%;
     width: 65em;
+  }
+  .ia{
+    margin-top: 100px;
   }
   .iaa{
     color: white;
@@ -617,7 +643,7 @@
     width: 500px;
     font-family: cursive;
     background-color: white;
-    margin-top: 60px;
+    margin-top: 130px;
   }
   .ikk{
     font-size: x-large;
@@ -664,12 +690,14 @@
   }
   .ttt{
     margin-top: 100px;
-    width: 1263px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: whitesmoke;
     height: 200px;
+    text-align: center;
   }
   .ttn{
-    margin-left: 500px;
     font-size: x-large;
     font-family: sans-serif;
     color: darkgray;
@@ -680,14 +708,12 @@
     font-size: x-large;
     font-family: sans-serif;
     margin-top: 70px;
-    margin-left: 450px;
     font-weight: bold;
   }
   .ttj{
     font-size: medium;
     font-family: sans-serif;
-    margin-left: 470px;
-    margin-top: -35px;
+    margin-top: 0px;
     color: darkslategray;
   }
   .bh{
@@ -708,29 +734,35 @@
     margin-top: -35px;
   }
   .mara{
-    margin-left: 300px;
     background-color: whitesmoke;
     margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
   }
   .mard{
     background-color: skyblue;
-    border-radius: 4px;
+    border-radius: 4px 4px 4px 4px;
     border: skyblue;
     width: 120px;
-    height: 40px;
+    height: 45px;
     color: white;
-    margin-left: 812px;
-    margin-top: -50px;
+    margin-top: 15px;
+    margin-left: 10px;
   }
   .mard:hover{
     background-color: deepskyblue;
   }
-  .mara form input{
-    width: 400px;
-    height: 34px;
-    border-radius: 10px thin;
-    margin-left: 90px;
+  .tar{
+    width: 35em;
+    height: 40px;
+    border: 10px thin whitesmoke;
+    margin-left: 20px;
     margin-top: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
   }
   .mar{
     display: flex;
@@ -763,13 +795,14 @@
     font-family: sans-serif;
     font-weight: thick;
     color: darkslategray;
+    position: inherit;
   }
   .mmu{
     font-size: large;
     font-family: sans-serif;
     font-weight: thick;
     color: darkslategray;
-    margin-left: -40px;
+    position: inherit;
   }
   .mmmu{
     background-color: skyblue;
@@ -779,7 +812,7 @@
     height: 40px;
     color: white;
     margin-left: 530px;
-    margin-top: 40px; 
+    margin-top: px; 
   }
   .great{
     background-color: white;
@@ -790,8 +823,7 @@
     height: 500px;
   }
   .cir{
-    margin-top: 434px;
-    width: 1263px;
+    width: 100%;
     background-color: rgb(39, 39, 154);
     height: 90px;
   }
@@ -819,27 +851,31 @@
     color: blue;
   }
   .nv{
-    margin-left: 120px;
+    margin-left: 110px;
     color: darkgray;
   }
   .cbx{
     margin-top: 20px;
-  
+    display: grid;
+    grid-template-columns: 15px 15px 15px 15px 15px;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-left: -120px;
   }
   .nvv{
-    margin-left: 140px;
+    margin-left: 80px;
     color: darkgray;
   }
   .nvvv{
-    margin-left: 140px;
+    margin-left: 90px;
     color: darkgray;
   }
   .mre{
-    margin-left: 140px;
+    margin-left: 90px;
     color: darkgray;
   }
   .mr{
-    margin-left: 140px;
+    margin-left: 70px;
     color: darkgray;
   }
   .non{
@@ -851,8 +887,8 @@
     margin-left: 120px;
     background: white;
     margin-top: -15px;
-    position: absolute;
     height: 0px;
+    position: absolute;
   }
   .jh{
     margin-left: 120px;
@@ -864,19 +900,16 @@
     background-color: white;
     color: deepskyblue;
     margin-top: 40px;
-    margin-left: -20px;
   }
   .sdt{
     background-color: white;
     color: deepskyblue;
     margin-top: 40px;
-    margin-left: -20px;
   }
   .bvh{
     background-color: white;
     color: deepskyblue;
     margin-top: 40px;
-    margin-left: -20px;
   }
   .ffg{
     background-color: white;
@@ -885,11 +918,17 @@
   }
   .xct{
     margin-top: -40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 70px;
+    margin-left: 50px;
   }
   .mny{
     background-color: white;
     margin-top: 220px;
-    width: 1050px;
+    width: 90%;
     margin-left: 120px;
   }
   .mkj{
@@ -992,6 +1031,8 @@
     background-color: white;
     margin-top: 50px;
     margin-left: 190px;
+    display: flex;
+    flex-direction: column;
   }
   .lqw{
     width: 120px;
@@ -1106,7 +1147,7 @@
   font-weight: bold;
   font-size: medium;
   margin-left: 45px;
-  margin-top: 15px;
+  margin-top: 8px;
   font-family: sans-serif;
 }
 .bok:hover{
@@ -1121,16 +1162,19 @@
   animation: ease-in;
 }
 .blur{
-  position: absolute;
-  margin-top: 460px;
-  margin-left: 650px;
-  background-color:  rgb(39, 39, 154);
+  justify-self: right;
+  background-color: white;
   height: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 50%;
+  margin-top: -25px;
 }
 #email{
   border: none;
   color:  rgb(94, 94, 200);
-  background-color:  rgb(141, 141, 231);
+  background-color:  white;
   width: 270px;
   height: 40px;
   border-radius: 5px 0px 0px 5px;
@@ -1139,10 +1183,10 @@
   border: 0px thin rgb(39, 39, 154);
 }
 #unlock{
-  margin-left: 273px;
   margin-top: -42px;
   height: 42px;
   width: 180px;
+  margin-left: -4px;
   background-color: deepskyblue;
   border: none;
   border-radius: 0px 5px 5px 0px;
@@ -1171,7 +1215,7 @@
   transition: 0.5s;
 }
 .writings{
-  border: 4px solid black;  
+  margin-top: 20px;  
 }
 .writings-1{
   display: flex;
@@ -1194,4 +1238,25 @@
   font-size: small;
   font-family: sans-serif;
   margin-top: 4px;
+}
+.advertisement-images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.managers-trust{
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+.ccn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -5px;
+}
+.last-writings{
+  width: 90%;
 }
