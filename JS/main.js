@@ -35,4 +35,3 @@ function appear(){
         (icon.style.visibility = "visible")
     }
 }
-
