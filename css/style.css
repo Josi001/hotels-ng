@@ -1177,3 +1177,31 @@ margin-left: 0px;
   background-color: black;
   opacity: 30%;
 }
+.books{
+  position: absolute;
+  margin-top: 265px;
+  width: 300px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: black;
+  opacity: 30%;
+}
+.bok{
+  position: absolute;
+  margin-top: 275px;
+  width: 200px;
+  height: 45px;
+  margin-left: 50px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: sans-serif;
+}
+.bok:hover{
+  transition: 0.5s;
+}
+header{
+  position: absolute;
+}
