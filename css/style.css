@@ -544,20 +544,33 @@
     margin-top: -10px;
   }
   .ia{
-    background-image: url("/images/lagos_city1.jpg");
+    margin-top: 25px;
+  }
+  .popup-property{
+    margin-top: -200px;
+  }
+  .lagos-city{
     width: 300px;
-    height: 230px;
-    margin-top: 150px;
-    background-size: 330px 230px;
-    background-repeat: no-repeat;
-    background-color: white;
     border-radius: 5px 5px 5px 5px;
+  }
+  .general-layout{
+    margin-left: 100px;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    width: 65em;
   }
   .iaa{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
-    margin-top: 30px;
+    margin-left: 120px;
+  }
+  .distinct{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 50px;
   }
   .iaaa{
     color: white;
@@ -565,7 +578,6 @@
     font-size: x-large;
     margin-left: 80px;
     margin-top: 0px;
-    margin-top: 80px;
   }
   .ie{
     margin-left: 190px;
@@ -1074,29 +1086,22 @@
   opacity: 30%;
   transition: 0.5s;
 }
-.books{   
-  width: 300px;
-  border-radius: 0px 0px 5px 5px;
-  background-color: black;
-  opacity: 30%;
-  margin-top: -50px;
-}
 .bok{
-  position: absolute;
   width: 200px;
   height: 45px;
-  margin-left: 50px;
   border-radius: 5px 5px 5px 5px;
   border: 1px solid white;
   background-color: transparent;
   color: white;
   font-weight: bold;
   font-size: medium;
+  margin-left: 45px;
+  margin-top: 15px;
   font-family: sans-serif;
-  margin-top: -50px;
 }
 .bok:hover{
   transition: 0.3s;
+  cursor: pointer;
 }
 #tick{
   background-color: white;
@@ -1138,9 +1143,10 @@
 }
 .booking-hotels{
   height: 350px;
+  width: 80%;
+  margin-left: 140px;
   display: flex;
-  justify-content:space-evenly;
-  background-color: white;
+  gap: 20px;
 }
 .hover-effect{
   width: 330px;
