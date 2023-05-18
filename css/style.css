@@ -1,0 +1,1126 @@
+/* @media screen() {
+
+  
+} */
+
+
+
+h1{
+    color: white;
+    font-family: Arial;
+background-color: deepskyblue;
+margin-top: 0px;
+margin-left: 0px;  
+   }
+   .p1 {
+    color : deepskyblue;
+    font-size: 12px;
+    word-spacing: -1px;
+    text-align: center;
+    border: 30px;
+    background-color: rgb(55, 55, 154);
+    border-radius: 30px;
+    width: 205px;
+    margin-left: 30px; 
+   }
+  .p2 {
+    color: white;
+    text-align: center;
+  }
+  div{
+    background-color: deepskyblue;
+    border: 2px deepskyblue;
+    width: 230px;
+    height: 65px;
+  }
+  .p3 {
+    margin-top: 0px;
+    margin-left: 55px;
+    color: white;
+  }
+  .re {
+    border: 1px solid white;
+    width:88px;
+    height: 65px;
+    background-color: deepskyblue;
+    margin-right: 0px;
+    
+  }
+  .op {
+    margin-top: -25px;
+    margin-left: 60px;
+    color: white;
+  }
+  .h {
+    border: 1px solid white;
+    width: 735px;
+    height: 65px;
+    background-color: deepskyblue;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .j {
+    height: 65px;
+    width: 238px;
+  }
+  span {
+    color: white;
+    font-size: medium;
+  }
+  nav { 
+    display: inline-flex;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .pop{
+    width: 1263.5px;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+  }
+  .k {
+    width: 199.5px;
+    height: 65px;
+  }
+  .non {
+    color: red;
+    margin-top: 10px;
+  }
+  .qe {
+    color: gray;
+    font-weight: bold;
+    margin-left: -110px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    font-family: cursive;
+    font-size: small;
+    border-radius: 5px;
+  }
+  .btn {
+    background-color: deepskyblue;
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+  }
+  .summary {
+    border: 1px solid black;
+  }
+  img{
+    width: 1228.5px;
+    height: 286px;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+  }
+  .f {
+    box-shadow: -1px 1px 15px black;
+    background-color: white;
+    width: 1050px;
+    height: 121px;
+    border: blue;
+    margin-top: 200px;
+    margin-left: 90px;
+    position: absolute;
+  }
+  .colonel {
+    background-color: skyblue;
+    border-radius: 4px;
+    border: skyblue;
+    width: 100px;
+    height: 50px;
+  }
+  .f form input{
+    padding: 14px 130px 14px;
+    margin-top: 40px;
+    border-radius: 4px thin;
+  }
+  .f form input:first-child{
+    margin-left: 50px;
+  }
+  .p {
+    color: black;
+    margin-top: 350px;
+    margin-left: 500px;
+    background-color: white;
+  }
+  .d {
+    margin-left: 460px;
+  }
+  .z {
+    background-color: deepskyblue;
+    width: 40px;
+    height: 2.7px;
+    margin-left: 665px;
+    margin-bottom: -40px;
+    margin-top: 20px;
+  }
+  button:hover {
+    background-color: deepskyblue;
+    color: white;
+  }
+  .bun {
+    border: 2px solid deepskyblue;
+    width: 150px;
+    height: 100px;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: white;
+    font-size: 17px;
+    color: deepskyblue;
+  }
+  .bun:hover{
+    transition: 0.2s;
+  }
+  .bun b {
+    padding: 14px 130px 14px;
+  }
+  .ed {
+    color: black;
+    font-size: medium;
+  }
+  .ed:hover {
+    color: white;
+  }
+  .is {
+    border: 2px solid deepskyblue;
+    width: 150px;
+    height: 100px;
+    margin-left: 150px;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: white;
+    font-size: 17px;
+    color: deepskyblue;
+  }
+  .jk {
+    background-color: white;
+    margin-left: 500px;
+  }
+  .qt  {
+    font-size: 25px;
+  }
+   .t {
+    margin-left: 180px;
+  }
+  .gt{
+    margin-left: 180px;
+    margin-top: -70px;
+  }
+  .nt{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  details{
+    position: absolute;
+  }
+  .non{
+    color: white;
+    margin-top: -30px;
+    margin-left: 180px;
+    direction: ltr;
+    background: transparent;
+  }
+  .bun:hover{
+    color: white;
+  }
+  .z{
+    margin-bottom: -40px;
+    margin-top: 20px;
+  }
+  .t{
+    margin-top: -40px;
+  }
+  .qt{
+    margin-left: 50px;
+  }
+  .igbo{
+    width: 150px;
+    height: 25px;
+    background-color:  darkred;
+    color: white;
+    margin-left: -8px;
+    margin-top: -5px;
+  }
+  .sd{
+    margin-left: 10px;
+    padding-top: 0px;
+  }
+  .lc{
+    width: 5px;
+    height: 3px;
+    background-color:  darkred;
+    opacity: 90%;
+    transform: skewX(45deg);
+    margin-left: -7px; 
+    position: relative;
+  }
+  .ll{
+    margin-left: 200px;
+    font-size: x-large;
+    text-align: center;
+    font-style:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .pp{
+    background-color: white;
+  }
+  .nn{
+    margin-left: 450px;
+    margin-top: 150px;
+  }
+  .tt{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: darkslategrey;
+    font-weight: bold;
+  }
+  .ts{
+    font-size: large;
+    font-family: sans-serif;
+    color: darkslategrey;
+    margin-left: 25px;
+    margin-top: -10px;
+  }
+  .box-t{
+    background-image: url("/images/lagos_city1.jpg");
+    width: 300px;
+    height: 285px;
+    margin-top: 100px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .box-t:hover{
+    background-color: blue;
+  }
+  .ib{
+    background-image: url("/images/abuja_city1.jpg");
+    width: 300px;
+    height: 285px;
+    margin-top: 100px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  .ic{
+    background-image: url("/images/crossriver_city1.jpg");
+    width: 300px;
+    height: 285px;
+    margin-top: 100px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-left: 20px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-radius: 10px;
+  }
+  .in{
+    margin-left: 190px; 
+    border-radius: 10px;
+  }
+  .iaa{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 100px;
+  }
+  .iaaa{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 80px;
+    margin-top: 0px;
+  }
+  .ibb{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 100px;
+  }
+  .ibbb{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 80px;
+  }
+  .icc{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 120px;
+  }
+  .iccc{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 80px;
+  }
+  .ie{
+    margin-left: 190px;
+    margin-top: 50px;
+  }
+  .huy{
+    position: absolute;
+  }
+  .if{
+    background-image: url("/images/port-harcourt_city1.jpg");
+    width: 300px;
+    height: 285px;
+    margin-top: -100px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .ig{
+    background-image: url("/images/owerri_city1.jpg");
+    width: 300px;
+    height: 285px;
+    margin-top: -100px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  .ih{
+    background-image: url("/images/uyo_city1.jpg");
+    width: 300px;
+    height: 285px;
+    margin-top: -100px;
+    background-size: 300px 200px;
+    background-repeat: no-repeat;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 5px 5px 5px;
+    border-radius: 10px;
+    
+  }
+  .iff{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 100px;
+  }
+  .ifff{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 50px;
+  }
+  .igg{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 120px;
+  }
+  .iggg{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 80px;
+  }
+  .ihh{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 120px;
+  }
+  .ihhh{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 90px;
+  }
+  .ijj{
+    width: 170px;
+    height: 45px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 10%;
+    margin-top: -55px;
+    position: absolute;
+    color: black;
+  }
+  .ijj:hover{
+    background-color: deepskyblue;
+    color: white;
+    opacity:unset;
+  }
+  .ij{
+    margin-top: -150px;
+    background-color: black;
+    opacity: 20%;
+    width: 300px;
+  }
+  .ijjj{
+    position: absolute;
+  }
+  .ik{
+    margin-left: 450px;
+    width: 500px;
+    font-family: cursive;
+    background-color: white;
+    margin-top: -40px;
+  }
+  .ikk{
+    font-size: x-large;
+  }
+  .ikkk{
+    font-size: large;
+    margin-left: 40px;
+  }
+  .ql{
+    margin-bottom: -40px;
+    margin-top: 30px;
+    margin-left: 630px;
+    width: 50px;
+    height: 3px;
+  }
+  .pt{
+    background-color: white;
+    margin-left: -30px;
+  }
+  .ppt{
+    color: deepskyblue;
+    font-family: sans-serif;
+    font-size: large;
+    margin-bottom: 4px;
+  }
+  .pppt{
+    color: grey;
+    font-size: small;
+    font-family: sans-serif;
+    margin-top: 4px;
+  }
+  .mn{
+    margin-top: 20px;
+  }
+  .vv{
+    margin-top: 50px;
+  }
+  .nm{
+    margin-top: 20px;
+  }
+  .bb{
+    margin-top: 20px;
+  }
+  .bbc{
+    margin-top: 20px;
+  }
+  .cbb{
+    margin-top: 20px;
+  }
+  .cbc{
+    margin-top: 20px;
+  }
+  .vn{
+    margin-top: 20px;
+  }
+  .ot{
+    background-color: white;
+    margin-left: 170px;
+  }
+  .ttt{
+    margin-top: 100px;
+    width: 1263px;
+    background-color: whitesmoke;
+    height: 200px;
+  }
+  .ttn{
+    margin-left: 500px;
+    font-size: x-large;
+    font-family: sans-serif;
+    color: darkgray;
+    margin-top: 10px;
+  }
+  .noo{
+    color: darkslategrey;
+    font-size: x-large;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-left: 450px;
+    font-weight: bold;
+  }
+  .ttj{
+    font-size: medium;
+    font-family: sans-serif;
+    margin-left: 470px;
+    margin-top: -35px;
+    color: darkslategray;
+  }
+  .bh{
+    background-color: whitesmoke;
+    margin-left: 400px;
+  }
+  .mmb{
+    margin-left: 400px;
+    color: blue;
+    border-radius: 5px;
+    margin-top: -40px;
+  }
+  .bhh{
+    width: 300px;
+  }
+  .none{
+    margin-left: 110px;
+    margin-top: -35px;
+  }
+  .mara{
+    margin-left: 300px;
+    background-color: whitesmoke;
+    margin-top: -10px;
+  }
+  .mard{
+    background-color: skyblue;
+    border-radius: 4px;
+    border: skyblue;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin-left: 812px;
+    margin-top: -50px;
+  }
+  .mard:hover{
+    background-color: deepskyblue;
+  }
+  .mara form input{
+    width: 400px;
+    height: 34px;
+    border-radius: 10px thin;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .mar{
+    display: flex;
+    flex-direction: column;
+  }
+  .bth{
+    background-color: white;
+    margin-left: 530px;
+    margin-top: 130px;
+  }
+  .pre{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: thick;
+    color: darkslategray;
+  }
+  .lq{
+    margin-left: 630px;
+    width: 40px;
+    height: 3px;
+    margin-top: -20px;
+  }
+  .llu{
+    margin-left: 450px;
+    background-color: white;
+    margin-top: 300px;
+  }
+  .mu{
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: thick;
+    color: darkslategray;
+  }
+  .mmu{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: thick;
+    color: darkslategray;
+    margin-left: -40px;
+  }
+  .mmmu{
+    background-color: skyblue;
+    border-radius: 4px;
+    border: skyblue;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-left: 530px;
+    margin-top: 40px; 
+  }
+  .great{
+    background-color: white;
+    margin-top: 80px;
+  }
+  .grt{
+    width: 1263px;
+    height: 500px;
+  }
+  .cir{
+    margin-top: 434px;
+    width: 1263px;
+    background-color: rgb(39, 39, 154);
+    height: 90px;
+  }
+  .ttv{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 170px;
+    margin-top: 20px;
+  }
+  .bv{
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    margin-top: -50px;
+    margin-left: 225px;
+  }
+  .mv{
+    font-size: medium;
+    color: deepskyblue;
+    margin-left: 225px;
+    margin-top: -10px;
+  }
+  .bxx{
+    color: blue;
+  }
+  .nv{
+    margin-left: 120px;
+    color: darkgray;
+  }
+  .cbx{
+    margin-top: 20px;
+  
+  }
+  .nvv{
+    margin-left: 140px;
+    color: darkgray;
+  }
+  .nvvv{
+    margin-left: 140px;
+    color: darkgray;
+  }
+  .mre{
+    margin-left: 140px;
+    color: darkgray;
+  }
+  .mr{
+    margin-left: 140px;
+    color: darkgray;
+  }
+  .non{
+    background: transparent;
+    outline: none;
+  }
+  .bxf{
+    width: 1050px;
+    margin-left: 120px;
+    background: white;
+    margin-top: -15px;
+    position: absolute;
+    height: 0px;
+  }
+  .jh{
+    margin-left: 120px;
+    background-color: white;
+    color: deepskyblue;
+    margin-top: 40px;
+  }
+  .hgy{
+    background-color: white;
+    color: deepskyblue;
+    margin-top: 40px;
+    margin-left: -20px;
+  }
+  .sdt{
+    background-color: white;
+    color: deepskyblue;
+    margin-top: 40px;
+    margin-left: -20px;
+  }
+  .bvh{
+    background-color: white;
+    color: deepskyblue;
+    margin-top: 40px;
+    margin-left: -20px;
+  }
+  .ffg{
+    background-color: white;
+    color: deepskyblue;
+    margin-top: 40px; 
+  }
+  .xct{
+    margin-top: -40px;
+  }
+  .mny{
+    background-color: white;
+    margin-top: 220px;
+    width: 1050px;
+    margin-left: 120px;
+  }
+  .mkj{
+    background-color: white;
+    margin-left: 120px;
+    margin-top: -40px;
+    font-family: sans-serif;
+    color:  darkslategray;
+    font-size: medium;
+  }
+  .bvc{
+    display: flex;
+    flex-direction: row;
+  }
+  .fjy{
+    background-color: white;
+  }
+  .nfd{
+    font-family: sans-serif;
+    color:  darkslategray;
+    margin-top: -32px;
+    margin-left: 650px;
+    font-size: small;
+  }
+  .bvv{
+    margin-bottom: -40px;
+    margin-top: 110px;
+    margin-left: -50px;
+    width: 40px;
+    height: 3px;
+  }
+  .tyt{
+    margin-top: -40px;
+    margin-left: 650px;
+    color: #82db29;
+  }
+  .hj{
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 10px;
+  }
+  .oo{
+    margin-top: -30px;
+    margin-left: -25px;
+    color: white;
+  }
+  .hff{
+    width: 40px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .is:hover{
+    color: white;
+    background-color: deepskyblue;
+    transition-delay: 0.1s;
+  }
+  .smi{
+    width: 330px;
+    height: 180px;
+  }
+  .smi:hover{
+    background-color: blue;
+    transition: 0.2s;
+  }
+  .smir{
+    background-color: white;
+    margin-left: 50px;
+   margin-top: 60px; 
+  }
+  .smir:hover{
+    transition: 0.2s;
+    background-color: blue;
+  }
+  .hot{
+    margin-left: 0px;
+    margin-top: -10px;
+    background-color: white;
+    height: 90px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    width: 328.5px;
+  }
+  .hote{
+    font-family: cursive;
+    font-size: larger;
+    color: red;
+    margin-left: 10px;
+  }
+  .hotel{
+    font-size: large;
+    margin-top: -10px;
+    margin-left: 10px;
+    color: darkslategrey;
+    font-family: sans-serifs;
+  }
+  .vil{
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  .bil{
+    margin-left: 0px;
+    margin-top: -10px;
+    background-color: white;
+    height: 90px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    width: 328.5px;
+  }
+  .bill{
+    font-family: sans-serif;
+    font-size: larger;
+    color: deepskyblue;
+    word-spacing: 1px;
+    margin-left: 10px
+  }
+  .billi{
+    font-size: large;
+    margin-top: -10px;
+    margin-left: 10px;
+    color: darkslategrey;
+    font-family: sans-serifs;
+  }
+  .vill{
+    width: 330px;
+    height: 180px;
+  }
+  .co{
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  .coc{
+    width: 330px;
+    height: 180px;
+  }
+  .cocc{
+    margin-left: 0px;
+    margin-top: -10px;
+    background-color: white;
+    height: 90px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    width: 328.5px;
+  }
+  .cocco{
+    font-family: sans-serif;
+    font-size: larger;
+    color: deepskyblue;
+    word-spacing: 1px;
+    margin-left: 10px
+  }
+  .coccon{
+    font-size: large;
+    margin-top: -10px;
+    margin-left: 10px;
+    color: darkslategrey;
+    font-family: sans-serifs;
+  }
+  .kjl{
+    margin-left: 50px;
+  }
+  .bve{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .tut{
+    margin-top: -28px;
+    margin-left: 130px;
+    color: white;
+  }
+  .bvr{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 190px;
+  }
+  .lqw{
+    width: 120px;
+    height: 40px;
+  }
+  .bbc{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: -5px;
+  }
+  .bccx{
+    width: 120px;
+    height: 35px;
+  }
+  .iop{
+    background-color: white;
+    margin-top: 46px;
+    margin-left: -20px;
+  }
+  .poi{
+    width: 250px;
+    height: 55px;
+  }
+  .bab{
+    background-color: white;
+    margin-top: 34px;
+    margin-left: 100px;
+  }
+  .hah{
+    width: 130px;
+    height: 100px;
+  }
+  .tooth{
+    margin-top: -30px;
+    margin-left: 45px;
+    color: white;
+    position: absolute;
+  }
+  .tooth:hover{
+    cursor: pointer;
+  }
+  .nvn{
+    margin-top: -43px;
+    margin-left: 90px;
+    color: white;
+  }
+  .nvn:hover{
+    cursor: pointer;
+  }
+  .tut:hover{
+    cursor: pointer;
+  }
+  .smi:hover{
+    color: aquamarine;
+    transition: 0.2s;
+  }
+  #whatsapp-logo{
+    width: 205px;
+    height: 200px;
+    margin-left: 750px;
+    position: absolute;
+    margin-top: -63px;
+    background-color: white;
+    border-radius: 5px;
+    visibility: hidden;
+  }
+  #whatsapp{
+    color: #82db29;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .whats{
+    font-family: cursive;
+    margin-top: -18px;
+    margin-left: 55px;
+    color: darkslategray;
+    font-size: small;
+  }
+  #caller{
+    color: #82db29;
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+  .call{
+    font-family: cursive;
+    margin-top: -20px;
+    margin-left: 55px;
+    color: darkslategray;
+    font-size: small;
+  }
+  #currency{
+    width: 205px;
+    height: 233px;
+    margin-left: 870px;
+    position: absolute;
+    margin-top: -63px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+  }
+  .cash{
+    margin-left: 10px;
+    font-family: cursive;
+    font-size: small;
+    color: darkslategray;
+  }
+  .nig{
+    background-color: white;
+    width: 205px;
+    height: 40px;
+  }
+  .niger{
+    font-family: sans-serif;
+    margin-top: 15px;
+    background-color: white;
+    height: 40px;
+  }
+  .niger:hover{
+    background-color: deepskyblue;
+    transition: 0.2s;
+  }
+  .eur{
+    width: 205px;
+    height: 40px;
+    background-color: white;
+    margin-top: -15px;
+  }
+  .eur:hover{
+    background-color: deepskyblue;
+    transition: 0.2s;
+  }
+  .usdt{
+    width: 205px;
+    height: 40px;
+    background-color: white;
+    margin-top: -15px;
+  }
+  .usdt:hover{
+    background-color: deepskyblue;
+    transition: 0.2s;
+  }
+  .british{
+    width: 205px;
+    height: 40px;
+    background-color: white;
+    margin-top: -15px;
+  }
+  .british:hover{
+    background-color: deepskyblue;
+    transition: 0.2s;
+  }
+  #access{
+    width: 205px;
+    height: 145px;
+    margin-left: 1020px;
+    position: absolute;
+    margin-top: -63px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+  }
+ .sign{
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  color: darkslategray;
+  font-size: small;
+  line-height: 20px;
+ }
+ .new{
+  width: 195px;
+  height: 40px;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: skyblue;
+  color: white;
+  border: none ;
+ }
+.new:hover{
+  background-color: deepskyblue;
+  transition: 0.5s;
+}
+.here{
+  font-family: sans-serif;
+  color: darkslategray;
+  font-size: small;
+}
