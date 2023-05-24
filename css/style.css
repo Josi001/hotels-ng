@@ -67,13 +67,17 @@
   font-size: medium;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding-left: 35px;
-  margin-top: -4px;
+  margin-top: -20px;
 }
 
-#navbar-icon{
+.navbar-icon{
   margin-top: -25px;
   margin-left: 180px;
   color: white;
+}
+
+.navbar-icon:hover{
+  cursor: pointer;
 }
 
 .navbar-line{
@@ -83,9 +87,13 @@
   margin-left: -55px;
 }
 
+.navbar-currency{
+  width: 20px;
+}
+
 .naira-sign{
   margin-left: -12px;
-  margin-top: -25px;
+  margin-top: -20px;
   color: white;
 }
 
@@ -96,6 +104,37 @@
   margin-top: 20px;
 }
 
+.caret-down-naira{
+  margin-left: 20px;
+  color: white;
+}
+
+.caret-down-naira:hover{
+  cursor: pointer;
+}
+
+.acct-icon{
+  margin-top: 30px;
+  margin-left: -60px;
+  color: white;
+}
+
+.navbar-acct{
+  margin-top: -20px;
+  margin-left: -20px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caret-down-acct{
+  color: white;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+
+.caret-down-acct:hover{
+  cursor: pointer;
+}
 
    .p1 {
     color : deepskyblue;
@@ -136,10 +175,9 @@
     width: 238px;
   }
     .pop{
-    width: 1263.5px;
+    width: 100%;
     background-position: center;
     background-size: cover;
-    background-position: center;
   }
   .k {
     width: 199.5px;
@@ -837,15 +875,13 @@
     color: aquamarine;
     transition: 0.2s;
   }
-  #whatsapp-logo{
+  #woman-dropdown-menu{
     width: 205px;
     height: 200px;
     margin-left: 750px;
-    position: absolute;
-    margin-top: -63px;
-    background-color: white;
+    margin-top: -263px;
+    color: white;
     border-radius: 5px;
-    visibility: hidden;
   }
   #whatsapp{
     color: #82db29;
@@ -875,12 +911,11 @@
     width: 205px;
     height: 233px;
     margin-left: 870px;
+    margin-top: -263px;
     position: absolute;
-    margin-top: -63px;
     background-color: white;
     border-radius: 5px;
     display: block;
-    visibility: hidden;
   }
   .cash{
     margin-left: 10px;
@@ -933,15 +968,13 @@
     background-color: deepskyblue;
     transition: 0.2s;
   }
-  #access{
+  #Account-hover{
     width: 205px;
     height: 145px;
     margin-left: 1020px;
     position: absolute;
-    margin-top: -63px;
     background-color: white;
     border-radius: 0px 0px 5px 5px;
-    visibility: hidden;
   }
  .sign{
   margin-left: 15px;

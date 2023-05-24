@@ -24,7 +24,7 @@ function toggles(){
     }
 }
 function appear(){
-    let icon = document.getElementById("access")
+    let icon = document.getElementById("Account-hover")
     if (icon.style.display === "none"){
         icon.style.display = "block"
     }else{
