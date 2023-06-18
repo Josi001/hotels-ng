@@ -576,10 +576,12 @@
    position: absolute;
    margin-top: -170px;
    opacity: 0%;
+   margin-top: -150px;
   }
   .button-section:hover{
     opacity: 100%;
     transition: 0.5s;
+    transform: translateY(-20px);
   }
   .top-section{
     width: 300px;
@@ -593,6 +595,9 @@
     height: 65px;
     border-radius: 0px 0px 5px 5px;
     margin-top: 150px;
+  }
+  .buttom-section:hover{
+    margin-top: -100px;
   }
   .popup-property{
     margin-top: -200px;
@@ -747,7 +752,6 @@
     border: skyblue;
     width: 120px;
     height: 45px;
-    color: white;
     margin-top: 15px;
     margin-left: 10px;
   }
@@ -762,7 +766,7 @@
     margin-top: 15px;
     font-weight: bold;
     font-family: cursive;
-    color: white;
+    color: black;
   }
   .mar{
     display: flex;
@@ -1153,6 +1157,7 @@
 .bok:hover{
   transition: 0.3s;
   cursor: pointer;
+  background-color: rgb(31, 131, 238);
 }
 #tick{
   background-color: white;
@@ -1190,7 +1195,7 @@
   background-color: deepskyblue;
   border: none;
   border-radius: 0px 5px 5px 0px;
-  color: white;
+  color: black;
 }
 #unlock{
   background-color: rgb(55, 161, 210);
